@@ -1,0 +1,19 @@
+.fl-con{
+    display: flex;
+}
+
+.fl-con div{
+    background: peachpuff;
+    border-color: blue;
+    border: solid blue 10px;
+    flex: 1;
+    /* flex box container only affects its child(always direct) not its decendants(child's children)
+    flex has default value 0 1 auto (default values); first is flex growth, second flex shrink and last flex basis
+    growth tells how the flex items will behave when sizw grows  means they will grow evenly and 2 means that they will grow twice the size.
+    shrink means if the elemnts width lets say is more than the container then how the boxes (flex items) will shrink..
+    basis defined the default value for the flex item before an shrinking or growth.
+
+    flex 1;  it is a secondhand (a memonic or shortcut of sorts. helps in gicing values to multiple css values at once increases readabilty and cleanliness)
+    flex 1 means flex growth 1; flex shrink 1; and flex basis 0%; 
+    */
+}
