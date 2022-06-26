@@ -1,0 +1,10 @@
+.outer{
+    display : flex;
+    box-sizing: border-box;
+}
+
+.outer div{
+    border : 4px solid blue;
+    height:100px;
+    flex: 1 1 auto;
+}

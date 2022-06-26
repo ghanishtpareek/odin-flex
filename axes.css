@@ -1,0 +1,13 @@
+.outer{
+    border: 5px solid green;
+    border-width: 2ch;
+    display: flex;
+    
+}
+
+.outer div{
+    color : blue;
+    background : yellow;
+    flex 1 1 auto;
+    border:2px solid blue ;
+}
