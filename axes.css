@@ -8,6 +8,6 @@
 .outer div{
     color : blue;
     background : yellow;
-    flex 1 1 auto;
+    flex: 1 1 auto;
     border:2px solid blue ;
 }
