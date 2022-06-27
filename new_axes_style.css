@@ -1,0 +1,14 @@
+.outer {
+    display: flex;
+    border: 5ch solid black;
+   /* flex-direction: column; */
+}
+
+.outer div{
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 80px;
+    flex: 1 1 auto;
+    /* try flex 1; to see all the columns collapse as flex 1 is a shorthand and it also means fex-basis is 0. */
+    
+  }

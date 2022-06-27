@@ -2,6 +2,7 @@
     border: 5px solid green;
     border-width: 2ch;
     display: flex;
+    flex-direction: columns;
     
 }
 
@@ -10,4 +11,8 @@
     background : yellow;
     flex: 1 1 auto;
     border:2px solid blue ;
+}
+
+.outer div div{
+    border :5px black solid;
 }
